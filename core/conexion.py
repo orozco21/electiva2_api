@@ -7,4 +7,6 @@ conexion = mysql.connector.connect(
     database="bq5khnloapqqfal7sr8u"
 )
 
+cnx = mysql.connector.connect(**config)    
+cursor = cnx.cursor()
 
